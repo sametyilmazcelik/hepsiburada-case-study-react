@@ -1,0 +1,44 @@
+.dropDown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 48px;
+  color: rgb(176, 176, 176);
+  border: 1px solid rgb(176, 176, 176);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.options-wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  visibility: visible;
+  z-index: 5;
+  position: absolute;
+  box-sizing: border-box;
+  cursor: default;
+  background-position: 100% 0, 100% 0, 0 100%, 0 100%;
+  background-repeat: no-repeat;
+  width: 160px;
+  text-align: left;
+  span:hover {
+    background: #ff6100;
+  }
+}
+
+.options-wrap span.active {
+  background-image: url("../../../assets/icon/check.png");
+  background-size: 21px 21px;
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align: left;
+}
+
+.options-wrap span {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding-left: 22px;
+}

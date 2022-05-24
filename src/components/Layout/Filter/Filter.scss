@@ -1,0 +1,43 @@
+.filter-wrapper {
+  max-width: 222px;
+  width: 222px;
+  display: flex;
+  flex-direction: column;
+
+  h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(72, 72, 72);
+    margin: 24px 0px 20px;
+  }
+  span {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+    margin: 0px;
+    cursor: pointer;
+  }
+  span + span{
+    margin-top: 10px;
+  }
+}
+.filter + .filter{
+  margin-top: 10px;
+}
+.filter-item:hover {
+  cursor: pointer;
+  color: #ff6000;
+}
+
+.remove-filter-button {
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  width: 15px;
+  color: white;
+  margin-right: 0.4rem;
+  height: 15px;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+nav {
+  position: absolute;
+  left: 300px;
+  padding-bottom: 300px;
+}
+.pagination {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+ul.pagination > li > button {
+  width: 33px;
+  height: 33px;
+  font-size: 10px;
+  color: rgb(100, 100, 100);
+  background: #ffffff;
+  border: 1px solid #f3e7e7;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 9px;
+  margin-left: 13.2px;
+}
+ul.pagination > button {
+  width: 33px;
+  font-size: 10px;
+  color: rgb(100, 100, 100);
+  cursor: pointer;
+  height: 33px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 9px;
+  margin-left: 13.2px;
+}
+
+.active_page {
+  border: 1px solid rgb(255, 96, 0) !important;
+  color: rgb(255, 96, 0) !important;
+}

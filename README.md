@@ -2,7 +2,7 @@
 
 - Ürünlerin listelendiği, arandığı ve filtrelendiği sayfa tasarımı
 
-#### [Demo] -> (https://hepsiburada-case-study-react.netlify.app/)
+#### [Demo için tıklayınız](https://hepsiburada-case-study-react.netlify.app/)
 
 
 ### when the project runs;
